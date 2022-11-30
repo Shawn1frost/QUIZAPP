@@ -1,0 +1,61 @@
+create database Quiz;
+use Quiz;
+
+create table login
+(
+name varchar(25),
+age int,
+dob date,
+gender varchar(10),
+address varchar(40),
+board varchar(20),
+school varchar(40),
+uid varchar(20),
+pwd varchar(20)
+);
+
+create table JavaQuestion
+(
+que varchar(200),
+op1 varchar(100),
+op2 varchar(100),
+op3 varchar(100),
+op4 varchar(100)
+);
+
+insert into javaquestion values("What was the old name of java?","Elite","Oak","Green","Sun");
+insert into javaquestion values("Who invent java?","James Gosling","Montey","Tim","Engalbart");
+insert into javaquestion values("Which of the following is not a keyword?","int","if","for","String");
+insert into javaquestion values("All the user define words of a program is called?","Keywords","Identifier","Literal","Seperator");
+insert into javaquestion values("Which of the following is not an Integer type?","int","byte","short","float");
+insert into javaquestion values("What was the old name of java?","Elite","Oak","Green","Sun");
+insert into javaquestion values("What was the old name of java?","Elite","Oak","Green","Sun");
+insert into javaquestion values("What was the old name of java?","Elite","Oak","Green","Sun");
+insert into javaquestion values("What was the old name of java?","Elite","Oak","Green","Sun");
+
+create table HtmlQuestion
+(
+que varchar(200),
+op1 varchar(100),
+op2 varchar(100),
+op3 varchar(100),
+op4 varchar(100)
+);
+
+insert into htmlquestion values("HTML based on what?","Lag","Flag","Tag","Jug");
+insert into htmlquestion values("Who invent HTML?","James Gosling","Montey","Tim Burners Lee","Engalbart");
+insert into htmlquestion values("Which of the following is not an attribute?","bgcolor","height","src","body");
+insert into htmlquestion values("All the user define words of a program is called?","Keywords","Identifier","Literal","Seperator");
+insert into htmlquestion values("Name the translator used by HTML","Interpreter","Compiler","Asembler","None");
+insert into htmlquestion values("Name the tag use to insert an image?","<img>","<a>","<br>","<body>")
+
+
+
+create table MysqlQuestion
+(
+que varchar(200),
+op1 varchar(100),
+op2 varchar(100),
+op3 varchar(100),
+op4 varchar(100)
+);
